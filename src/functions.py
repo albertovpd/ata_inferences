@@ -64,7 +64,7 @@ def haversine_distance(df, coordinates):
     - Delivers an array to create a new column in the df.
     - Removes the coordinates columns from df.
     
-    coordinates : list == [latitude, longitude]
+    coordinates : list == [latitude, longitude], they are columns of the df.
     '''
     london_lat  = 51.4775 	
     london_long = -0.46139
